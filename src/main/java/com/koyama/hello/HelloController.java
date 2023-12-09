@@ -12,8 +12,4 @@ public class HelloController {
             return "hello koyama";
     }
 
-    @DeleteMapping("/hello")
-    public String deleteHello() {
-        return "delete hello";
-    }
 }
